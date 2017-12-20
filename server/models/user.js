@@ -6,11 +6,6 @@ const User = mongoose.model('users', {
     required: true,
     trim: true
   },
-  password: {
-    type: String,
-    required: true,
-    trim: true
-  },
   tickers: {
     type: Array,
     required: true,
